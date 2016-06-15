@@ -75,7 +75,7 @@ You have to copy /project/index.html file in template folder and contents of /pr
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-##Backend
+## Backend
 
 You need python to be able to run the application.
 
@@ -84,14 +84,13 @@ You need python to be able to run the application.
 The front-end is communicating with back-end using RestAPI Services.
 Here are some api endpoints
 
-https://sfmovieszurab.herokuapp.com/api/movies/
-https://sfmovieszurab.herokuapp.com/api/movies/2/
+	* https://sfmovieszurab.herokuapp.com/api/movies/
+	* https://sfmovieszurab.herokuapp.com/api/movies/2/	
+	* https://sfmovieszurab.herokuapp.com/api/locations/
+	* https://sfmovieszurab.herokuapp.com/api/locations/1/
+	* https://sfmovieszurab.herokuapp.com/api/movies/autocomplete/nee/
 
-https://sfmovieszurab.herokuapp.com/api/locations/
-https://sfmovieszurab.herokuapp.com/api/locations/1/
-
-https://sfmovieszurab.herokuapp.com/api/movies/autocomplete/nee/
-
+	
 The api is built using python flask.
 
 #### Database
