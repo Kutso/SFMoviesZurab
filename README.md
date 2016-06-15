@@ -79,12 +79,33 @@ These instructions will get you a copy of the project up and running on your loc
 
 You need python to be able to run the application.
 
+#### REST api
+
+The front-end is communicating with back-end using RestAPI Services.
+Here are some api endpoints
+
+https://sfmovieszurab.herokuapp.com/api/movies/
+https://sfmovieszurab.herokuapp.com/api/movies/2/
+
+https://sfmovieszurab.herokuapp.com/api/locations/
+https://sfmovieszurab.herokuapp.com/api/locations/1/
+
+https://sfmovieszurab.herokuapp.com/api/movies/autocomplete/nee/
+
+The api is built using python flask.
+
+#### Database
+
+The data powering the website is stored in PostgreSQL.
+
+
+
 #### Requirments
 
 All the requirements are written in requirements.txt folder.
-Make sure you pip install all of them in your python enviorment.
+Make sure you pip install all of them in your python environment.
 
-After building the frontend, fill templates and static folders with html, css and js
+After building the front-end, fill templates and static folders with html, css and js
 And to make app launch, run app.py file and open http://localhost:5000/
 
 #### Testing
